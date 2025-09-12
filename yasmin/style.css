@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bolota{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: rgb(243, 120, 141);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolota p {
+ font-size: 45px;
+ color: white;
+
+}
+.cascas{
+    
+}
