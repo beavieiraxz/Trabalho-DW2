@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.container {
+    height: 100vh;
+    display: flex;
+    border: solid 1px blue;
+}
+
+.boxz {
+ border: solid 1px red;
+
+}
+
 .bolota{
     width: 200px;
     height: 200px;
@@ -18,6 +29,8 @@
  color: white;
 
 }
-.cascas{
-    
+.casquinha {
+ border: solid 1px pink;
+ width: 30%;
+
 }
