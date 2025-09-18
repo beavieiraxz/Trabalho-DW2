@@ -24,3 +24,53 @@
 h2{
     margin-top: 5px;
 }
+
+.all {
+    width: 100%;
+    height: 100vh;
+    border: solid 2px white;
+    display: flex;
+}
+
+.c1 {
+    border: solid 2px red;
+     height: 100%;
+     width: 300px;
+}
+
+.c2 {
+    border: solid 2px yellow;
+    height: 100%;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c2 img {
+    height: 75%;
+    width: 75%;
+}
+
+.c3 {
+    border: solid 2px green;
+    height: 100%;
+    width: 1200px;
+}
+
+.cx1 {
+    border: solid 2px blue;
+    height: 50%;    
+    width: 100%;
+}
+
+.tab1 {
+    border: solid 2px paleturquoise;
+    height: 50%;
+    width: 250px;
+}
+
+.tab2 {
+    border: solid 2px purple;
+    height: 50%;
+    width: 250px;
+}
