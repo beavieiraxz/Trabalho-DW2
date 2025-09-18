@@ -27,10 +27,124 @@
 .bolota p {
  font-size: 45px;
  color: white;
+ font-style: oblique;
 
 }
 .casquinha {
- border: solid 1px pink;
  width: 30%;
+ font-style: oblique;
 
 }
+
+.cascas {
+    display: flex;
+    justify-content: center;
+}
+.cascas p { 
+    color: white;
+    font-size: 50px;
+    
+}
+
+.picole {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-style: oblique;
+}
+.picole p {
+color: white;
+font-size: 50px;
+}
+
+.smoothies {
+display: flex;
+justify-content: center;
+width: 50%;
+font-style: oblique;
+}
+.Smoothies p { 
+    color: white;
+    font-size: 50px;
+}
+
+.casquinha .morangudo img{
+  height: 90px;
+ width: 70px;
+}
+.casquinha  .morangudo {
+   display: flex;
+   align-items: center;
+   color: white;
+   
+}
+.casquinha .morangudo p { 
+    font-size: 27px;
+}
+.casquinha .tutitrufado img {
+    height: 90px;
+    width: 45px;
+}
+.casquinha .tutitrufado { 
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .tutitrufado p {
+    font-size: 27px;
+}
+.casquinha .Hortvete img{
+    height: 90px;
+    width: 60px;
+}
+.casquinha .Hortvete p {
+    font-size: 27px;
+}
+.casquinha .Hortvete {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .Chocobauni img {
+    height: 90px;
+    width: 35px;
+}
+.casquinha .Chocobauni p {
+    font-size: 27px;
+}
+.casquinha .Chocobauni {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .Barrytilo img {
+    height: 90px;
+    width: 45px;
+}
+.casquinha .Barrytilo p {
+    font-size: 27px;
+}
+.casquinha .Barrytilo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .Cherrylady img {
+    height: 90px;
+    width: 55px;
+}
+.casquinha .Cherrylady p {
+    font-size: 27px;
+}
+.casquinha .Cherrylady {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+
