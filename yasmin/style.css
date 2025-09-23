@@ -149,6 +149,57 @@ font-style: oblique;
 }
 
 .menu-picole {
-    border: ;
+    display: flex;
+    border: solid 1px red ;
+    flex-direction: column;
+    width: 30%;
+    /* justify-content: center; */
 }
    
+.menu-picole .Pikiwi img {
+    height: 70px;
+    width: 40px;
+
+}
+.menu-picole .picole {
+    display: flex;
+    width: 100%;
+    font-size: 27px;
+    border: solid 1px black;
+}
+.menu-picole .Pikiwi {
+    display: flex;
+ font-size: 27px;
+    align-items: center;
+    color: white;
+}
+.menu-picole .Mangole img {
+    height: 70px;
+    width: 40px;
+}
+.menu-picole .Mangole {
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    color: white;
+}
+.menu-picole .Moranguete img {
+    height: 70px;
+    width: 40px;
+}
+.menu-picole .Moranguete {
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    color: white;
+}
+.menu-picole .CeuAzul img {
+    height: 70px;
+    width: 40px;
+}
+.menu-picole .CeuAzul {
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    color: white;
+}
