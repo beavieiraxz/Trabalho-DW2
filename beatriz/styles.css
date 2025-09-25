@@ -7,18 +7,20 @@
 .header{
     width: 100%;
     display:flex;
-    border: solid 2px white;
     justify-content: space-between;
+    color: black;
 }
 
 .header .menu{
     display:flex;
     gap: 50px;
+    color: black;
 }
 
 .header .logo{
     display: flex;
     gap: 10px;
+    color: black;
 }
 
 h2{
@@ -28,18 +30,20 @@ h2{
 .all {
     width: 100%;
     height: 100vh;
-    border: solid 2px white;
     display: flex;
 }
 
 .c1 {
-    border: solid 2px red;
      height: 100%;
      width: 300px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 25px;
 }
 
 .c2 {
-    border: solid 2px yellow;
     height: 100%;
     width: 550px;
     display: flex;
@@ -47,30 +51,103 @@ h2{
     justify-content: center;
 }
 .c2 img {
-    height: 75%;
-    width: 75%;
+    height: 70%;
+    width: 70%;
 }
 
 .c3 {
-    border: solid 2px green;
     height: 100%;
     width: 1200px;
 }
 
 .cx1 {
-    border: solid 2px blue;
     height: 50%;    
     width: 100%;
+    display: flex;
 }
 
 .tab1 {
-    border: solid 2px paleturquoise;
-    height: 50%;
-    width: 250px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .tab2 {
-    border: solid 2px purple;
-    height: 50%;
-    width: 250px;
+    height: 100%;
+    width: 50%;
+    font-size: x-large;
+    color: white;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.natural {
+    display: flex;
+    flex-direction: column;
+    /* border: solid 2px green; */
+    height: 10%;
+    color: black;
+}
+
+.natural img {
+    width: 90px;
+    height: 80px;
+}
+
+.cx2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase {
+    font-size: larger;
+    color: black;
+    font-style: italic;
+}
+
+.c1 .botao {
+    background-color: #f0778b;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c1 .botao small{
+    font-size: x-large;
+    color: white;
+}
+
+.c1 .botao p{
+    color: white;
+    font-style: initial;
+    font-size: 70px;
+}
+
+.tab1 .botaodv{
+    background-color: #ffecea;
+    width: 350px;
+    height: 90px;
+    border-radius: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+}
+
+.tab1 .botaodv a{
+    color: black;
+    font-style: inherit;
+    font-size: 60px;
+    text-decoration: none;
 }
