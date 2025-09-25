@@ -20,6 +20,9 @@
     align-items: center;
     justify-content: center;
 }
+.bolota a {
+    text-decoration: none;
+}
 .bolota p {
  font-size: 45px;
  color: white;
