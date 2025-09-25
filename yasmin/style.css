@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+
+}
+
+
+.bolota{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: rgb(243, 120, 141);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolota p {
+ font-size: 45px;
+ color: white;
+ font-style: oblique;
+
+}
+.casquinha {
+ width: 40%;
+ font-style: oblique;
+
+}
+
+.cascas {
+    display: flex;
+    justify-content: center;
+}
+.cascas p { 
+    color: white;
+    font-size: 50px;
+    
+}
+
+.picole {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-style: oblique;
+}
+.picole p {
+color: white;
+font-size: 50px;
+}
+
+.smoothies {
+display: flex;
+width: 50%;
+flex-direction: column;
+font-style: oblique;
+}
+.smo-titulo p { 
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.casquinha .morangudo img{
+  height: 90px;
+ width: 70px;
+}
+.casquinha  .morangudo {
+   display: flex;
+   align-items: center;
+   color: white;
+   
+}
+.casquinha .morangudo p { 
+    font-size: 27px;
+}
+.casquinha .tutitrufado img {
+    height: 90px;
+    width: 45px;
+}
+.casquinha .tutitrufado { 
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .tutitrufado p {
+    font-size: 27px;
+}
+.casquinha .Hortvete img{
+    height: 90px;
+    width: 60px;
+}
+.casquinha .Hortvete p {
+    font-size: 27px;
+}
+.casquinha .Hortvete {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .Chocobauni img {
+    height: 90px;
+    width: 35px;
+}
+.casquinha .Chocobauni p {
+    font-size: 27px;
+}
+.casquinha .Chocobauni {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .Barrytilo img {
+    height: 90px;
+    width: 45px;
+}
+.casquinha .Barrytilo p {
+    font-size: 27px;
+}
+.casquinha .Barrytilo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.casquinha .Cherrylady img {
+    height: 90px;
+    width: 55px;
+}
+.casquinha .Cherrylady p {
+    font-size: 27px;
+}
+.casquinha .Cherrylady {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+
+}
+
+.menu-picole {
+    display: flex;
+
+    flex-direction: column;
+    width: 40%;
+    /* justify-content: space-between; */
+}
+
+.menu-picole .box-picole {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+   
+.menu-picole .Pikiwi img {
+    height: 70px;
+    width: 40px;
+
+}
+.menu-picole .picole {
+    display: flex;
+    width: 100%;
+    /* height: 10%; */
+    font-size: 27px;
+
+}
+.menu-picole .Pikiwi {
+    display: flex;
+ font-size: 27px;
+    align-items: center;
+    color: white;
+}
+.menu-picole .Mangole img {
+    height: 70px;
+    width: 40px;
+}
+.menu-picole .Mangole {
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    color: white;
+}
+.menu-picole .Moranguete img {
+    height: 70px;
+    width: 40px;
+}
+.menu-picole .Moranguete {
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    color: white;
+}
+.menu-picole .CeuAzul img {
+    height: 70px;
+    width: 40px;
+}
+.menu-picole .CeuAzul {
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    color: white;
+}
+
+.menu-picole .quadrado {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.quadrado {
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrado .branquinho {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height:90% ;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+
+}
+.quadrado .branquinho .texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 27px;
+    align-items: center;
+}
+
+.quadrado .tamanhos {
+    display: flex;
+    justify-content: center;
+}
+
+.quadrado .tamanhos img {
+    height: 200px;
+    width: 400px;
+}
+
+.smoothies .smothizudos .Morangudo{
+    display: flex;
+    align-items: center;
+
+}
+
+.smoothies .smothizudos .Morangudo p{
+    font-size: 27px;
+    color: white;
+}
+
+.smoothies .smothizudos .Morangudo img{
+    width: 60px;
+    height: 80px;
+}
+
+
+.smoothies .smothizudos .Caramel{
+    display: flex;
+    align-items: center;
+
+}
+
+.smoothies .smothizudos .Caramel p {
+    font-size: 27px;
+    color: white;
+}
+.smoothies .smothizudos .Caramel img {
+    width: 60px;
+    height: 80px;
+}
+
+.smoothies .smothizudos .Confetinho{
+    display: flex;
+    align-items: center;
+
+}
+
+.smoothies .smothizudos .Confetinho p {
+    font-size: 27px;
+    color: white;
+}
+.smoothies .smothizudos .Confetinho img{
+    width: 60px;
+    height: 80px;
+}
+.smoothies .smothizudos .White{
+    display: flex;
+    align-items: center;
+
+}
+
+.smoothies .smothizudos .White p {
+    font-size: 27px;
+    color: white;
+}
+.smoothies .smothizudos .White img{
+    width: 60px;
+    height: 80px;
+}
+
+.smoothies .smothizudos .chanty{
+    display: flex;
+    align-items: center;
+}
+
+.smoothies .smothizudos .chanty p {
+    font-size: 27px;
+    color: white;
+}
+.smoothies .smothizudos .chanty img{
+    width: 60px;
+    height: 80px;
+}
+.smothizudos {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
